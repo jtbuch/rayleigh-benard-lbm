@@ -1,4 +1,4 @@
-"""rb_lbm: A Rayleigh-Benard convection simulation library using the Lattice Boltzmann Method."""
+"""rb_lbm: A Rayleigh-Benard convection simulation library using Lattice Boltzmann methods."""
 
 from core import *
 import utils
