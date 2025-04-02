@@ -16,7 +16,7 @@ A Rayleigh-Benard convection simulation library using the Lattice Boltzmann Meth
 - Python 3.9, 3.10, or 3.11
 - JAX and related dependencies (optional but recommended)
 
-### Installation Steps
+### Installation steps
 
 ```bash
 # Clone the repository
@@ -33,7 +33,7 @@ pip install -e .
 pytest
 ```
 
-### Google Colab Support
+### Google Colab support
 
 ShittyBird includes special handling for Google Colab environments. When running in Colab:
 
@@ -82,7 +82,7 @@ Check the `examples` directory for more simulation examples:
 
 - `rayleigh_benard_simulation.py`: Basic Rayleigh-Benard convection setup
 
-## Project Structure
+## Project structure
 
 The project is organized as follows:
 
@@ -94,7 +94,7 @@ The project is organized as follows:
 
 ## Development
 
-### Quality Assurance
+### Unit tests
 
 ```bash
 # Run all tests
@@ -110,7 +110,7 @@ ruff check .
 mypy .
 ```
 
-### Running Examples
+### Running examples
 
 ```bash
 # Run the Rayleigh-Benard simulation example
