@@ -1,6 +1,6 @@
-# ShittyBird
+# rb_lbm
 
-A fluid dynamics simulation library built on JAX focused on the Lattice Boltzmann Method.
+A Rayleigh-Benard convection simulation library using the Lattice Boltzmann Method, built on JAX.
 
 ## Features
 
@@ -20,8 +20,8 @@ A fluid dynamics simulation library built on JAX focused on the Lattice Boltzman
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/shitty_bird.git
-cd shitty_bird
+git clone https://github.com/jtbuch/rayleigh-benard-lbm.git
+cd rayleigh-benard-lbm
 
 # Install in development mode (with all dependencies including JAX)
 pip install -e ".[default]"
@@ -43,8 +43,8 @@ ShittyBird includes special handling for Google Colab environments. When running
 
 ```python
 # Clone the repository
-!git clone https://github.com/yourusername/shitty_bird.git
-%cd shitty_bird
+!git clone https://github.com/jtbuch/rayleigh-benard-lbm.git
+%cd rayleigh-benard-lbm
 
 # Install with pip
 !pip install -e .

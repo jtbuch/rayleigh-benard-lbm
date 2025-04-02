@@ -1,11 +1,11 @@
-"""ShittyBird: A fluid dynamics simulation library built on JAX."""
+"""rb_lbm: A Rayleigh-Benard convection simulation library using Lattice Boltzmann Method built on JAX."""
 
 from setuptools import setup, find_packages
 
 setup(
-    name="shitty_bird",
+    name="rb_lbm",
     version="0.1.0",
-    description="A library for simulating fluid dynamics using Lattice Boltzmann Method",
+    description="A library for simulating Rayleigh-Benard convection using Lattice Boltzmann Method",
     author="Jatan Buch",
     author_email="jb4625@columbia.edu",
     license="MIT",

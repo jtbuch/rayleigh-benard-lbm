@@ -1,4 +1,4 @@
-"""ShittyBird: A fluid dynamics simulation library built on JAX."""
+"""rb_lbm: A Rayleigh-Benard convection simulation library using the Lattice Boltzmann Method."""
 
 from core import *
 import utils
