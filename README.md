@@ -1,6 +1,6 @@
-# rb_lbm
+# Simulating Rayleigh-Benard convection with Lattice Boltzmann methods (rb_lbm)
 
-A Rayleigh-Benard convection simulation library using the Lattice Boltzmann Method, built on JAX.
+A Rayleigh-Benard convection simulation library using Lattice Boltzmann methods built using JAX.
 
 ## Features
 
